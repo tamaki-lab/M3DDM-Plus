@@ -1,0 +1,44 @@
+{
+    "[python]": {
+        // "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.defaultFormatter": "ms-python.autopep8",
+        "editor.formatOnType": true,
+        "editor.codeActionsOnSave": {
+            // "source.organizeImports": "never"
+        }
+    },
+    "editor.renderWhitespace": "boundary",
+    "trailing-spaces.trimOnSave": true,
+    "files.autoSave": "onFocusChange",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.rulers": [
+        80,
+        88
+    ],
+    "extensions.closeExtensionDetailsOnViewChange": true,
+    "extensions.ignoreRecommendations": false,
+    "notebook.lineNumbers": "on",
+    //
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "markdownlint.config": {
+        "default": true,
+        "MD033": false
+    },
+    "markdown.extension.tableFormatter.normalizeIndentation": true,
+    //
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "python.testing.pytestArgs": [
+        "test"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.defaultInterpreterPath": "./venv/bin/python",
+}

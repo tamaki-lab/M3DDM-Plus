@@ -1,0 +1,24 @@
+# https://www.comet.com/docs/v2/api-and-sdk/python-sdk/advanced/configuration/
+
+# api_key should be in "~/.comet.config", NOT HERE!
+
+[comet]
+workspace=your_workspace_name # Change to your workspace name (comet user name)
+project_name=your_project_name # Change to your project name (e.g. M3DDM-Plus-Video-Outpainting)
+
+[comet_logging]
+hide_api_key=True
+display_summary_level=0
+file=comet_logs/comet-{project}-{datetime}.log # Change the path to your desired location (optional)
+
+# [comet_fallback_streamer]
+# keep_offline_zip=True
+
+[comet_auto_log]
+env_details=True
+env_gpu=True
+env_host=True
+env_cpu=True
+cli_arguments=True
+graph=True
+metrics=True
