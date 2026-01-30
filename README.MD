@@ -13,7 +13,9 @@
 
 </div>
 
-https://github.com/user-attachments/assets/f6c406b1-6023-4d81-b383-1f43500120a8
+https://github.com/user-attachments/assets/8abac1fe-290f-4141-b404-45051b462453
+
+[](/img/comparison.mp4)
 
 ## TODO
 
